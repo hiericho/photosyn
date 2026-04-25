@@ -71,7 +71,7 @@ graph TD
 
 **1. Clone the seeds:**
 ```bash
-git clone https://github.com/youruser/photosyn.git
+git clone https://github.com/hiericho/photosyn.git
 cd photosyn
 ```
 

@@ -1,23 +1,20 @@
-# <p align="center">🌿 PHOTOSYN.soul</p>
-<p align="center">
-  <b>A Neural Sanctuary where Biometric Data blooms into Digital Life.</b>
-</p>
+# 🌿 PHOTOSYN.soul
 
-<p align="center">
-  <img src="https://img.shields.io/badge/AI-Local--First-2ecc71?style=for-the-badge&logo=google-cloud&logoColor=white" alt="Local-First AI" />
-  <img src="https://img.shields.io/badge/Arch-Symbiotic-fef3c7?style=for-the-badge&logo=solid&logoColor=black" alt="Architecture" />
-  <img src="https://img.shields.io/badge/Vibe-Plant--Based%20Tech%20Angel-a2fca2?style=for-the-badge" alt="Vibe" />
-</p>
+> **A Neural Sanctuary where Biometric Data blooms into Digital Life.**
+
+[![Local-First AI](https://img.shields.io/badge/AI-Local--First-2ecc71?style=for-the-badge&logo=google-cloud&logoColor=white)](https://mediapipe.dev)
+[![Architecture](https://img.shields.io/badge/Arch-Symbiotic-fef3c7?style=for-the-badge&logo=solid&logoColor=black)](https://solidjs.com)
+[![Vibe](https://img.shields.io/badge/Vibe-Plant--Based%20Tech%20Angel-a2fca2?style=for-the-badge)](https://github.com)
 
 ---
 
-## ✨ THE VISION
+## ✨ The Vision
 
-**Photosyn** is a high-fidelity digital mirror that bridges the gap between human emotion and procedural botany. Using advanced AI computer vision, it transforms your reflection into a living ecosystem. Every gesture you make and every emotion you feel directly impacts the growth, color, and vitality of a digital garden.
+**Photosyn** is a high-fidelity digital mirror that bridges the gap between human emotion and procedural botany. Using advanced AI computer vision, it transforms your reflection into a living ecosystem — every gesture you make and every emotion you feel directly impacts the growth, color, and vitality of a digital garden.
 
 ---
 
-## 🧠 NEURAL INTERFACE
+## 🧠 Neural Interface
 
 ### 🖐️ Master Gestures
 
@@ -42,19 +39,21 @@ The **Neural Cortex** tracks your micro-expressions to tilt the world's physics:
 
 ---
 
-## 🛠️ THE TECH STACK
+## 🛠️ Tech Stack
 
-- **Core:** [SolidJS](https://www.solidjs.com/) — Fine-grained reactivity at 60 FPS.
-- **Intelligence:** [MediaPipe](https://google.github.io/mediapipe/) — Hand & Face Landmarker via WASM.
-- **Physics:** [Zustand](https://zustand-demo.pmnd.rs/) — Vanilla JS store for high-performance state.
-- **Visuals:** Canvas API — Procedural fractals, volumetric fog, and angel particles.
-- **Style:** Tailwind CSS — Glassmorphism & Cyber-minimalism.
+| Layer | Technology | Role |
+| :--- | :--- | :--- |
+| **Core** | [SolidJS](https://www.solidjs.com/) | Fine-grained reactivity at 60 FPS |
+| **Intelligence** | [MediaPipe](https://google.github.io/mediapipe/) | Hand & Face Landmarker via WASM |
+| **State** | [Zustand](https://zustand-demo.pmnd.rs/) | Vanilla JS store for high-performance state |
+| **Visuals** | Canvas API | Procedural fractals, volumetric fog, angel particles |
+| **Style** | Tailwind CSS | Glassmorphism & Cyber-minimalism |
 
 ---
 
-## 🏛️ ARCHITECTURE
+## 🏛️ Architecture
 
-Photosyn operates on a **Local-First** philosophy. Your biometric data never leaves your browser; all inference is computed on-device using highly optimized WASM binaries.
+Photosyn operates on a **Local-First** philosophy. Your biometric data never leaves your browser — all inference is computed on-device using highly optimized WASM binaries.
 
 ```mermaid
 graph TD
@@ -68,35 +67,53 @@ graph TD
 
 ---
 
-## 🚀 INITIALIZING SYMBIOSIS
+## 🚀 Getting Started
 
-1. **Clone the seeds:**
-   ```bash
-   git clone https://github.com/youruser/photosyn.git
-   cd photosyn
-   ```
+**1. Clone the seeds:**
+```bash
+git clone https://github.com/hiericho/photosyn.git
+cd photosyn
+```
 
-2. **Nurture dependencies:**
-   ```bash
-   npm install
-   ```
+**2. Nurture dependencies:**
+```bash
+npm install
+```
 
-3. **Awaken the sanctuary:**
-   ```bash
-   npm run dev
-   ```
+**3. Awaken the sanctuary:**
+```bash
+npm run dev
+```
+
+Open `http://localhost:3000` and allow camera access. 🌱
 
 ---
 
-## 📜 NEURAL LOGS
+## 📋 Requirements
 
-- **v9.0:** Optimized Crystalline Synapse Nodes and Majestic single-bloom stems.
-- **v5.0:** Added Emotional Linkage & Face Landmarker integration.
-- **v1.0:** Initial seeding.
+- Node.js 18+
+- A modern browser with WebAssembly support (Chrome, Firefox, Edge, Safari)
+- A webcam
+
+---
+
+## 📜 Changelog
+
+| Version | Notes |
+| :--- | :--- |
+| `v9.0` | Optimized Crystalline Synapse Nodes and Majestic single-bloom stems. |
+| `v5.0` | Added Emotional Linkage. |
+| `v1.0` | Initial seeding. |
+
+---
+
+## 📄 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
 <p align="center">
-  Developed with ✨ and 🌱 by <b>hiericho</b><br/>
+  Developed with ✨ and 🌱 by <b>[Your Name]</b><br/>
   <i>"In the intersection of code and chlorophyll, we find our reflection."</i>
 </p>

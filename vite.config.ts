@@ -3,7 +3,7 @@ import solidPlugin from 'vite-plugin-solid';
 import path from 'path';
 
 export default defineConfig({
-  base: './',
+  base: '/photosyn/',
   plugins: [solidPlugin()],
   server: {
     port: 3000,

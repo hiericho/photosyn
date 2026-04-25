@@ -24,7 +24,9 @@ export interface EcosystemState {
   plants: Plant[];
   spirits: Spirit[];
   synapses: Synapse[];
+  singularity: any;
   updateEcosystem: (fn: (state: EcosystemState) => Partial<EcosystemState>) => void;
   addPlant: (x: number, y: number, color?: string) => void;
   addSpirit: (x: number, y: number, color: string) => void;
+  addSynapse: (d: any) => void;
 }

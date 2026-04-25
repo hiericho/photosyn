@@ -114,6 +114,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ---
 
 <p align="center">
-  Developed with ✨ and 🌱 by <b>[Your Name]</b><br/>
+  Developed with ✨ and 🌱 by <b>hiericho</b><br/>
   <i>"In the intersection of code and chlorophyll, we find our reflection."</i>
 </p>

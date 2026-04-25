@@ -1,5 +1,5 @@
 import { createStore } from 'zustand/vanilla';
-import { EcosystemState, Synapse } from '../types/ecosystem';
+import { EcosystemState, Synapse, Plant } from '../types/ecosystem';
 
 const PROJECT_MANIFEST = [
   { 
@@ -37,7 +37,7 @@ export const ecosystemStore = createStore<EcosystemState>((set) => ({
       color: ['#2ecc71', '#a2fca2', '#16a085', '#00f3ff'][Math.floor(Math.random()*4)],
       type: 'FLOWER', growthSpeed: 2.5, flexibility: 0.5,
       structure: { x, y, angle: -Math.PI/2, length: 0.05, children: [], isTerminal: false, blossom: 0, phase: Math.random()*100 }
-    }, ...state.plants].slice(0, 12)
+    } as Plant, ...state.plants].slice(0, 12)
   })),
 
   addSpirit: (x: number, y: number, color: string) => set((state: EcosystemState) => ({

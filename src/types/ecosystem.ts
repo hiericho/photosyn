@@ -8,6 +8,7 @@ export interface Plant {
   structure: PlantNode; color: string; 
   type: 'FERN' | 'MOSS' | 'FLOWER'; // Variedad restaurada
   growthSpeed: number;
+  flexibility: number;
 }
 
 export interface Spirit {

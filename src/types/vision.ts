@@ -1,5 +1,5 @@
 export type EmotionType = 'NEUTRAL' | 'HAPPY' | 'SAD' | 'ANGRY' | 'SURPRISED';
-export type GestureType = 'NONE' | 'POINTING' | 'OPEN_PALM' | 'CLOSED_FIST' | 'PINCH';
+export type GestureType = 'NONE' | 'POINTING' | 'OPEN_PALM' | 'BLOOM_PINCH' | 'ROOT_FIST' | 'HEART' | 'STASIS_X' | 'SUN_RAY';
 
 export interface Landmark { x: number; y: number; z: number; }
 
